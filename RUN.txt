@@ -1,0 +1,29 @@
+FLYIUM - FAFB CONNECTOME FLY
+
+RUNNING
+=======
+
+1. Open Command Prompt.
+
+2. Run:
+
+cd /d C:\Users\%USERNAME%\Downloads\flyium
+python fly.py
+
+3. Make sure Ollama is running in another Command Prompt:
+
+ollama serve
+
+The fly uses the FAFB v783 connectome locally.
+Ollama is only used for final language rendering.
+
+STOPPING
+========
+
+Type quit in the fly console.
+
+DATA
+====
+
+Do not delete the data folder. It contains the FAFB data
+required by fly.py.
